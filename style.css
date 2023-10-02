@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #FFFFFF;
+}
+
+h1, p, button, a {
+    color: black;
+}
+
+button, a {
+    cursor: pointer;
+} 
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 45px 500px 89px auto;
+}
+
+.links{
+    margin: 51px auto 95px auto;
+    color: #000000;
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 400;
+}
+
+.links__home {
+    color: #F25822;
+}
+
+
+
+
+.leftSide__mainTitle {
+    color: #000;
+    font-size: 60px;
+    margin: auto 41px 17px auto;
+    font-family:'Gilroy-Bold';
+    font-weight: 400;
+}
+
+.leftSide__paragraph {
+    color: #888;
+    font-size: 20px;
+    margin: auto 97px 37px auto;
+    font-family: 'Gilroy-Medium';
+    font-weight: 400;
+}
+
+.leftSide__btnStart {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px 35px;
+    margin-right: 72px;
+    border: none;
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+}
+
+.leftSide__btnWatchVideo {
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+    color: #AAA;
+    border: none;
+    Width: 90px;
+    Height: 19px;
+    background: none
+}
+
+.footer {
+    margin: 97px auto ;
+}
+

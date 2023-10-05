@@ -37,38 +37,61 @@ button, a {
     margin: 0 auto;
 }
 
-.logo {
-    margin: 45px 500px 89px auto;
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
 }
 
+.logo {
+    width: 137px;
+    height: 40px;
+    }
+
 .links{
-    margin: 51px auto 95px auto;
+    display: flex;    
     color: #000000;
     font-family: 'Gilroy-SemiBold';
     font-weight: 400;
+    width: 553px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .links__home {
     color: #F25822;
 }
 
-
-
+.main_content {
+    display: flex;
+    gap: 41px;
+    margin-bottom: 162px;
+}
 
 .leftSide__mainTitle {
     color: #000;
-    font-size: 60px;
-    margin: auto 41px 17px auto;
+    font-size: 60px;    
     font-family:'Gilroy-Bold';
     font-weight: 400;
+    width: 552px;
+    height: 222px;
+    margin-bottom: 17px;
 }
 
 .leftSide__paragraph {
     color: #888;
-    font-size: 20px;
-    margin: auto 97px 37px auto;
+    font-size: 20px;    
     font-family: 'Gilroy-Medium';
     font-weight: 400;
+    width: 466px;
+    height: 48px;
+    margin-bottom: 37px;
+}
+
+.leftSide__buttons {
+    display: flex;
+    align-items: center;
+    gap: 72px;
 }
 
 .leftSide__btnStart {
@@ -78,9 +101,7 @@ button, a {
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     color: #FFF;
-    font-size: 15px;
-    padding: 15px 35px;
-    margin-right: 72px;
+    font-size: 15px;    
     border: none;
     font-family: 'Gilroy-Bold';
     font-weight: 400;
@@ -97,6 +118,11 @@ button, a {
 }
 
 .footer {
-    margin: 97px auto ;
+    height: 243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    
 }
 
